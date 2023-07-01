@@ -71,3 +71,22 @@ button {
         height: 50px;
     }
 }
+
+@media screen and (min-width: 500px) and (max-width: 1185px) {
+    .hero-bottom-ctn h1 {
+        font-size: 40px;
+        margin-right: 0;
+        line-height: 1.5;
+    }
+
+    .hero-bottom-ctn p {
+        font-size: 14px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero-bottom-ctn p {
+        width: 100%;
+    }
+}
