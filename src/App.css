@@ -34,8 +34,6 @@ Very dark blue: hsl(240, 100%, 5%) */
     bottom: 0;
     top: 0;
     margin: auto;
-    transform: scale(-0.7);
-    rotate: 180deg;
   }
   
   .hero-ctn {
