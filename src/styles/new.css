@@ -44,7 +44,7 @@ p:nth-of-type(3) {
     
 }
 
-@media screen and (min-width: 1090px) {
+@media screen and (min-width: 900px) {
     .New {
         padding-left: 1em;
         position: relative;

@@ -39,7 +39,7 @@ button {
     font-size: 16px;
 }
 
-@media screen and (min-width: 1090px) {
+@media screen and (min-width: 900px) {
     
     .desktopImage {
         max-height: 290px;
