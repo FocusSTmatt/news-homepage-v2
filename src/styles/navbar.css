@@ -21,7 +21,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    background: red;
+    background: hsl(240, 33%, 98%);
     height: 100vh;
     width: 300px;
 }
@@ -29,6 +29,14 @@
 .mobile-nav-links nav {
     display: flex;
     flex-direction: column;
+    padding-top: 11em;
+}
+
+.mobile-nav-links nav a{
+    font-size: 20px;
+    padding-bottom: 1.7em;
+    padding-left: 1.3em;
+    font-weight: 500;
 }
 
 .hamburger-icon {
@@ -38,9 +46,9 @@
 
 .cross {
     position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 50px;
+    right: 20px;
+    top: 20px;
+    font-size: 45px;
 }
 .mobile-nav {
     display: none;
@@ -90,6 +98,7 @@
         max-width: 1050px;
         justify-content: space-between;
         align-items: center;
+        padding-bottom: 1em;
     }
 
     .desktop-nav a {

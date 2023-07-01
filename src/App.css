@@ -24,9 +24,10 @@ Very dark blue: hsl(240, 100%, 5%) */
   }
   .App {
     max-width: 1200px;
-    max-height: 830px;
+    max-height: 890px;
     background: hsl(36, 100%, 99%);
-    padding-left: 4em;
+    padding-left: 4.4em;
+    padding-top: 4em;
     position: absolute;
     left: 0;
     right: 0;
