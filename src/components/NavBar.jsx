@@ -5,6 +5,7 @@ import { IoIosMenu } from 'react-icons/io'
 import { RxCross1 } from 'react-icons/rx'
 
 function Navbar() {
+    
     const [MenuOpen, setMenuOpen] = useState(false);
     
     function handleClick(){
