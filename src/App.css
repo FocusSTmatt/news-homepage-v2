@@ -20,14 +20,14 @@ Very dark blue: hsl(240, 100%, 5%) */
 
 @media screen and (min-width: 900px){
   body {
-    background: grey;
+    background: rgb(48, 47, 47);
   }
   .App {
-    max-width: 1300px;
-    height: 990px;
+    padding-top: 4em;
+    padding-left: 6.5em;
+    max-width: 977px;
+    height: 696px;
     background: hsl(36, 100%, 99%);
-    padding-left: 7.5em;
-    padding-top: 6em;
     position: absolute;
     left: 0;
     right: 0;
@@ -38,16 +38,5 @@ Very dark blue: hsl(240, 100%, 5%) */
   
   .hero-ctn {
     display: flex;
-  }
-}
-
-@media screen and (min-width: 500px) and (max-width: 1185px) {
-  .App {
-    width: 100vw;
-    height: 100%;
-    padding: 0;
-    padding-right: 2em;
-    padding-left: 2em;
-    padding-top: 2em;
   }
 }

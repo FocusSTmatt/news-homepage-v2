@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 0.5em;
 }
 
 .mobile-logo {
@@ -37,6 +37,14 @@
     padding-bottom: 1.7em;
     padding-left: 1.3em;
     font-weight: 500;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
 }
 
 .hamburger-icon {
@@ -95,13 +103,17 @@
     
     .desktop-nav-ctn {
         display: flex;
-        max-width: 1050px;
+        max-width: 760px;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 1em;
+    }
+
+    .desktop-logo {
+        width: 50px;
     }
 
     .desktop-nav a {
         padding-left: 2em;
+        font-size: 12px;
     }
   }

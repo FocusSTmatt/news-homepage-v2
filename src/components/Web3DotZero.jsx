@@ -10,7 +10,7 @@ function Web3DotZero() {
       <MediaQuery query='(min-width: 500px)'>
         <img className='desktopImage' src={desktopImage} />
       </MediaQuery>
-      <MediaQuery className='mobileImage' query='(max-width: 500px)'>
+      <MediaQuery className='mobileImage' query='(max-width: 499px)'>
         <img className='mobileImage' src={mobileImage} />
       </MediaQuery>
       <div className='hero-bottom-ctn'>

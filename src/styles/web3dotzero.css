@@ -15,16 +15,16 @@
 }
 
 .hero-bottom-ctn h1 {
-    padding-bottom: 0.5em;
+    padding-bottom: 0.4em;
     font-size: 45px;
     font-weight: 800;
-    width: 85%;
     line-height: 1;
 }
 
 .hero-read-more p {
-    line-height: 1.7;
+    line-height: 2;
     font-weight: 500;
+    font-size: 15px;
 }
 
 button {
@@ -37,56 +37,45 @@ button {
     letter-spacing: 2px;
     font-weight: 500;
     font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: hsl(240, 100%, 5%);
 }
 
 @media screen and (min-width: 900px) {
     
     .desktopImage {
-        max-height: 290px;
-        max-width: 700px;
+        max-height: 205px;
+        max-width: 500px;
     }
     div.hero-bottom-ctn {
-        display: grid;
-        grid-template-columns: auto auto;
-        padding-top: 2em;
-        width: 560px;
+        display: flex;
+        flex: 2;
+        
         margin-right: 0 !important;
     }
 
     .hero-bottom-ctn h1 {
         display: flex;
-        font-size: 55px;
-        width: 300px;
+        font-size: 40px;
+        width: 210px;
         margin-right: 1em;
+       
         
     }
 
     .hero-read-more p {
-      width: 335px;
-      font-size: 15px;
+      width: 250px;
+      font-size: 11px;
       line-height: 1.5;
     }
 
     button {
-        height: 50px;
+        height: 35px;
+        font-size: 12px;
+        width: 130px;
     }
 }
 
-@media screen and (min-width: 500px) and (max-width: 1185px) {
-    .hero-bottom-ctn h1 {
-        font-size: 40px;
-        margin-right: 0;
-        line-height: 1.5;
-    }
-
-    .hero-bottom-ctn p {
-        font-size: 14px;
-        width: 200px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .hero-bottom-ctn p {
-        width: 100%;
-    }
-}
