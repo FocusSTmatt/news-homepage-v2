@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/web3dotzero.css'
 import desktopImage from '../assets/images/image-web-3-desktop.jpg'
 import mobileImage from '../assets/images/image-web-3-mobile.jpg'
@@ -19,7 +18,7 @@ function Web3DotZero() {
           <p>We dive into the next evolution of the web that
             claims to put the power of the platforms back into
             the hands of the people. But is it really fullfilling
-            it&apos;s promise? 
+            it&apos;s promise?
           </p>
           <button>READ MORE</button>
         </div>
